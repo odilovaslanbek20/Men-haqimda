@@ -1,0 +1,20 @@
+.haqimda{
+    padding-top:170px;
+    .container{
+        padding: 20px;
+    }
+    &__cards{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        padding: 30px;
+        border-radius: 30px;
+        border: 3px ridge red;
+        text-align: center;
+    }
+    &__title{
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+}
+
