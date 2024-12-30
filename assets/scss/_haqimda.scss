@@ -1,15 +1,12 @@
 .haqimda{
     padding-top:170px;
-    .container{
-        padding: 20px;
-    }
     &__cards{
         width: 100%;
         height: auto;
-        background-color: white;
+        background-color: rgb(251, 249, 249);
         padding: 30px;
         border-radius: 30px;
-        border: 3px ridge red;
+        border: 3px ridge rgb(8, 0, 0);
         text-align: center;
     }
     &__title{

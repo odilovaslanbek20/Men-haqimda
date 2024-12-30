@@ -1,0 +1,22 @@
+.aloqa{
+    margin-top: 100px;
+    background-color: rgb(47, 3, 243);
+    padding: 50px 0;
+    &__title{
+        font-size: 36px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    &__list{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: #fff;
+    }
+}

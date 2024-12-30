@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/index.css">
     <title>Document</title>
 </head>
@@ -16,16 +17,16 @@
             <nav class="nav">
                <ul class="nav__list">
                 <li class="nav__item">
-                    <a class="nav__link text" href="#">Haqimda</a>
+                    <a class="nav__link text" href="#haqimda">Haqimda</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link text" href="#">Maqsadlarim</a>
+                    <a class="nav__link text" href="#maqsadim">Maqsadlarim</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link text" href="#">Galeriya</a>
+                    <a class="nav__link text" href="#Galeriya">Galeriya</a>
                 </li>
                 <li class="nav__item">
-                    <a class="nav__link text" href="#">Aloqa</a>
+                    <a class="nav__link text" href="#Aloqa">Aloqa</a>
                 </li>
                </ul>
             </nav>
@@ -33,10 +34,10 @@
     </header>
 
     <main>
-        <section class="haqimda">
+        <section class="haqimda" id="haqimda">
             <div class="container">
                 <div class="haqimda__cards">
-                    <h1 class="haqimda__title text">Odilov Aslanbek Odil o'g'li</h1>
+                    <h2 class="haqimda__title text">Odilov Aslanbek Odil o'g'li</h2>
                     <p class="haqimda__text text"> Men Odilov Aslanbek Odil o'g'li.
                         Men 2008-yil 20-dekabr O'zbekiston Respublikasi Surxondaryo viloyati SHerobod tumani.
                         Men Toshkent shahar SHayxontoxur tumanidagi 115-sonli umumiy o'rta ta'lim maktabi 10-sinf o'quvchisiman.
@@ -47,11 +48,50 @@
                 </div>
             </div>
         </section>
+
+        <section class="maqsadlarim" id="maqsadim">
+            <div class="container">
+               <div class="haqimda__cards">
+                <h2 class="maqsadlarim__title text">Mening maqsadlarim</h2>
+                <p class="maqsadlarim__text text">Har bir insonning hayotda o‘z maqsadi bo‘ladi. Mening maqsadim – hayotda o‘z o‘rnimni topish, bilim va ko‘nikmalarim orqali jamiyatga foyda keltirishdir.
+    
+                    Kelajakda o‘zimni muvaffaqiyatli, o‘z kasbimning ustasi bo‘lgan inson sifatida ko‘raman. Buning uchun, avvalo, bilim olishni va o‘z ustimda tinimsiz ishlashni maqsad qilib qo‘yganman. Hozirgi kunda ta’lim va tajriba orttirish uchun barcha imkoniyatlardan foydalanmoqdaman. Chunki muvaffaqiyatning kaliti – mehnat va o‘qishdir.
+                    
+                    Shuningdek, maqsadlarim faqat shaxsiy rivojlanish bilan cheklanib qolmaydi. Yurtimning rivojlanishiga o‘z hissamni qo‘shishni xohlayman. Buning uchun o‘z sohamda yangi g‘oyalar yaratish, innovatsiyalarni joriy qilish va boshqalarga yordam berish niyatidaman.
+                    
+                    Maqsadimga erishish yo‘lida uchraydigan qiyinchiliklar meni qo‘rqitmaydi. Chunki har bir qiyinchilik – yangi imkoniyat va tajriba. Men ishonganman: agar inson o‘z oldiga aniq maqsad qo‘ysa va unga intilsa, albatta, muvaffaqiyatga erishadi.
+                    
+                    Shu sababli, men o‘z maqsadim sari dadil qadam tashlayapman va bu yo‘lda hech qachon to‘xtamayman.</p>
+               </div>
+            </div>
+        </section>
+
+        <section class="aloqa" id="Aloqa">
+            <div class="container">
+                <h2 class="aloqa__title text">Aloqa</h2>
+                <div class="aloqa__cards">
+                    <ul class="aloqa__list">
+                        <li class="aloqa__item">
+                            <a class="text" href="tel:+998992662880"><i style="color: rgb(250, 248, 248); font-size: 25px;" class="fa-solid fa-phone"></i>Mening raqamim...</a>
+                        </li>
+                        <li class="aloqa__item">
+                            <a class="text" href="mailto:aslanbekodilov524@gmail.com"><i style="color: rgb(253, 252, 252); font-size: 25px;" class="fa-solid fa-envelope"></i>Email</a>
+                        </li>
+                        <li class="aloqa__item">
+                            <a class="text" href="https://t.me/@aslanbek_odilov"><i style="color: rgb(252, 251, 251); font-size: 25px;" class="fab fa-telegram"></i> Telegram</a>
+                        </li>
+                        <li class="aloqa__item">
+                            <a class="text" href="https://www.instagram.com/aslanbek_1220/" target="_blank"><i  style="color: rgb(255, 254, 254); font-size: 25px;" class="fab fa-instagram"></i> Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
       <div class="container">
-        
+         <h2 class="footer__title text">@2025 Men Haqimda. Barcha huquqlar himoyalangan.</h2>
       </div>
     </footer>
 </body>
