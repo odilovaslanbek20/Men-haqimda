@@ -22,7 +22,7 @@ a {
 }
 
 .container {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -53,6 +53,10 @@ a {
   justify-content: space-between;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+}
 .nav__list {
   display: flex;
   align-items: center;
@@ -75,7 +79,74 @@ a {
   color: rgb(245, 245, 248);
   transition: all 0.1s linear;
 }
+.nav__bars {
+  display: none;
+}
 
+#check {
+  display: none;
+}
+
+@media (max-width: 870px) {
+  .nav__list {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    transition: all 0.7s ease-in;
+  }
+  .nav__bars {
+    display: block;
+    position: relative;
+    border-radius: 8px;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav .menu {
+    font-size: 30px;
+  }
+  .nav #check:checked ~ .nav__list {
+    left: 0;
+  }
+  .nav #check1:checked ~ .nav__list {
+    left: -100%;
+  }
+}
+@media (max-width: 460px) {
+  .header__logo__img {
+    width: 150px;
+  }
+  .nav__bars {
+    width: 30px;
+    height: 30px;
+  }
+  .nav .menu {
+    font-size: 22px;
+  }
+}
+@media (max-width: 300px) {
+  .header__logo__img {
+    width: 130px;
+  }
+  .nav__bars {
+    width: 25px;
+    height: 25px;
+  }
+  .nav .menu {
+    font-size: 16px;
+  }
+}
 .haqimda {
   padding-top: 170px;
 }
